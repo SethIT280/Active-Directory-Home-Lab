@@ -4,7 +4,7 @@
 - **ISO:** Windows Server 2025
 - **Edition:** Windows Server 2025 Datacenter Evaluation (Desktop Experience)
 
-<img src="Images/DCVM_Startup1.png" width="600" alt="VM name and ISO selection">
+<img src="../Images/DCVM_Startup1.png" width="600" alt="VM name and ISO selection">
 <img src="Images/DCVM_Startup5.png" width="600" alt="Server edition selection">
 
 ## Resources
