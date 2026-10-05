@@ -5,7 +5,7 @@
 - **Edition:** Windows Server 2025 Datacenter Evaluation (Desktop Experience)
 
 <img src="../Images/DCVM_Startup1.png" width="600" alt="VM name and ISO selection">
-<img src="Images/DCVM_Startup5.png" width="600" alt="Server edition selection">
+<img src="../Images/DCVM_Startup5.png" width="600" alt="Server edition selection">
 
 ## Resources
 
@@ -13,14 +13,14 @@
 - **CPU:** 2 cores
 - **Storage:** 50 GB
 
-<img src="Images/DCVM_Startup2.png" width="600" alt="Memory and CPU settings">
-<img src="Images/DCVM_Startup3.png" width="600" alt="Virtual hard disk size">
+<img src="../Images/DCVM_Startup2.png" width="600" alt="Memory and CPU settings">
+<img src="../Images/DCVM_Startup3.png" width="600" alt="Virtual hard disk size">
 
 # Network
 
 The VM is currently using a NAT Network, which allows connection to other VMs and the internet while keeping it separate from my host LAN.
 
-<img src="Images/DCVM_Startup6.png" width="600" alt="VirtualBox NAT Network settings">
+<img src="../Images/DCVM_Startup6.png" width="600" alt="VirtualBox NAT Network settings">
 
 ## DC Network Configuration
 
@@ -29,7 +29,7 @@ The VM is currently using a NAT Network, which allows connection to other VMs an
 - **Default gateway:** 10.0.2.1
 - **DNS:** 8.8.8.8
 
-<img src="Images/DCVM_Startup7.png" width="600" alt="Static IP configuration">
+<img src="../Images/DCVM_Startup7.png" width="600" alt="Static IP configuration">
 
 This configuration allows the server to connect to the internet, and allows clients to connect to the server without losing it due to the IP changing.
 
@@ -37,7 +37,7 @@ This configuration allows the server to connect to the internet, and allows clie
 
 Tested connectivity by pinging google.com.
 
-<img src="Images/DCVM_Startup8.png" width="600" alt="Successful ping to google.com">
+<img src="../Images/DCVM_Startup8.png" width="600" alt="Successful ping to google.com">
 
 # Installing Server Roles
 
@@ -50,8 +50,8 @@ Tested connectivity by pinging google.com.
 ## DHCP
 - The DHCP role allows the automatic configuration of devices that connect to the network.
 
-<img src="Images/DCVM_Startup9.png" width="600" alt="Selecting server roles">
-<img src="Images/DCVM_Startup11.png" width="600" alt="Role installation confirmation">
+<img src="../Images/DCVM_Startup9.png" width="600" alt="Selecting server roles">
+<img src="../Images/DCVM_Startup11.png" width="600" alt="Role installation confirmation">
 
 After choosing the server roles, click through the rest of the options, then install and restart.
 
@@ -61,13 +61,13 @@ After choosing the server roles, click through the rest of the options, then ins
 - Promoted the server to the first DC in a new forest named **AGNB.lab**.
 - This creates a whole new domain.
 
-<img src="Images/DCVM_Startup12.png" width="600" alt="Promotion wizard: new forest AGNB.lab">
+<img src="../Images/DCVM_Startup12.png" width="600" alt="Promotion wizard: new forest AGNB.lab">
 
 ## Set the DSRM Password
 - Set a DSRM (Directory Services Restore Mode) password.
 - DSRM gives you access to recovery options in the case of corruption or server failure.
 
-<img src="Images/DCVM_Startup13.png" width="600" alt="DSRM password prompt">
+<img src="../Images/DCVM_Startup13.png" width="600" alt="DSRM password prompt">
 
 After setting the password, click through the rest of the options, then install and restart.
 
