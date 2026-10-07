@@ -65,3 +65,19 @@ Added the !SBoulanger account to the default **Domain Admins**.
 John Smith and Seth Boulanger are now members of the GG_IT group.
 
 <img src="/Images/UsersAndOU9.png" width="600" alt="GG_IT members">
+
+# Moving Computers to a Different OU
+
+All devices [added to the domain](https://github.com/SethIT280/Active-Directory-Home-Lab/blob/main/Doc/Win11%20Client%20VM%20Setup.md#adding-the-vm-to-the-agnb-domain) are placed in the default **Computers** container in Active Directory. To keep them organized, move them to the **Win11 PC** OU.
+1. Open **Active Directory Users and Computers**.
+2. Select the **Computers** container.
+3. Select the device you want to move.
+4. Drag it to the correct OU.
+
+<img src="/Images/UsersAndOU11.png" width="600" alt="Device in the default Computers container">
+
+After moving it, the device appears in the new OU.
+
+<img src="/Images/UsersAndOU12.png" width="600" alt="Device moved into the computer OU">
+
+
