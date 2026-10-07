@@ -67,5 +67,5 @@ Tested connectivity by pinging google.com.
 <img src="/Images/EndUsersetup9.png" width="600" alt="Creating the Accounting OU">
 <img src="/Images/EndUsersetup10.png" width="600" alt="Creating the Accounting OU">
 
-After the restart, the device is connected to Active Directory and is placed in the default Computers container automatically.
+After the restart, the device is connected to Active Directory and is placed in the default [Computers container automatically](https://github.com/SethIT280/Active-Directory-Home-Lab/blob/main/Doc/OUs,%20Users,%20and%20Groups%20Setup.md#moving-computers-to-a-different-ou).
  
