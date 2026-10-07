@@ -41,13 +41,13 @@ Tested connectivity by pinging google.com.
 
 # Installing Server Roles
 
-## Active Directory Domain Services
+### Active Directory Domain Services
 - Provides management of users and computers within the domain, along with Group Policy to create rules for the domain.
 
-## DNS
+### DNS
 - The DNS role resolves hostnames to IP addresses for computers within the domain and allows clients to find the domain controller.
 
-## DHCP
+### DHCP
 - The DHCP role allows the automatic configuration of devices that connect to the network.
 
 <img src="../Images/DCVM_Startup9.png" width="600" alt="Selecting server roles">
