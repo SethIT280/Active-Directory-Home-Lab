@@ -28,16 +28,17 @@
 # Admin Account
 
 - **Name:** !SBoulanger
-- **Logon name:** !SBoulanger@AGNB.lab
-- **OU:** Employees/IT/IT Admin
+- **Logon name:** !S.Boulanger@AGNB.lab
+- **OU:** Employees/IT/Admin IT
 
+<img src="/Images/UsersAndOU5.png" width="600" alt="Creating the admin account">
 <img src="/Images/UsersAndOU13.png" width="600" alt="Creating the admin account">
 
 Setting up a separate admin account allows for the implementation of least privilege, separating daily tasks like email from administrative tasks like software installation.
 
 ## Group Membership
 
-Added the !SBoulanger account to the built-in **Domain Admins**.
+Added the !SBoulanger account to the default **Domain Admins**.
 
 - **Domain Admins:** gives full control over the domain and local admin rights on all devices within the domain.
 
