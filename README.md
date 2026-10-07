@@ -15,3 +15,5 @@ This is my Active Directory home lab, built to gain hands-on administration expe
 
 ## Documentation
 - [DC1 VM Setup](Doc/Setting%20Up%20DC1%20VM.md)
+- [OUs, Users, and Groups Setup](https://github.com/SethIT280/Active-Directory-Home-Lab/blob/main/Doc/OUs%2C%20Users%2C%20and%20Groups%20Setup.md)
+- 
